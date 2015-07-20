@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html#features body {
+    background-image: -webkit-linear-gradient(
+            287deg,
+            #270530 10%,
+            #196d82 36%,
+            #fff 70%
+    );
+    background-size: 100% 1100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.inner-col {
+    margin: 0 auto;
+    width: 1100px;
+}
+header.title {
+    text-align: center;
+}
+
+header.title h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.2em;
+
+}
+header.title p {
+    color: rgba(255,255,255,0.67);
+    line-height: 1.4em;
+    margin-bottom: 2.15em;
+    margin-top: 0.4em;
+}
+
+nav.sections {
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    display: block;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 31px 0;
+    width: 243px;
+    min-height: 61px;
+    list-style: none;
+}
+nav.sections a {
+    text-decoration: none;
+    color: #6f7c82;
+    padding: 5px 10px 0 81px;
+    position: relative;
+    display: block;
+}
+
+nav.sections a.developers:before {
+    background-image: url("https://stripe.com/img/features/nav/developers.png");
+}
+
+nav.sections a:before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+strong {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    font-weight: 500;
+}
+
+span {
+    font-size: 12px;
+    line-height: 1.4em;
+}
