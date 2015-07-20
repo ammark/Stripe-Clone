@@ -74,6 +74,15 @@ nav.sections a {
 nav.sections a.developers:before {
     background-image: url("https://stripe.com/img/features/nav/developers.png");
 }
+nav.sections a.complete:before {
+    background-image: url("https://stripe.com/img/features/nav/complete.png?2");
+}
+nav.sections a.reliable:before {
+    background-image: url("https://stripe.com/img/features/nav/reliable.png?2");
+}
+nav.sections a.secure:before {
+    background-image: url("https://stripe.com/img/features/nav/secure.png?2");
+}
 
 nav.sections a:before {
     content: '';
